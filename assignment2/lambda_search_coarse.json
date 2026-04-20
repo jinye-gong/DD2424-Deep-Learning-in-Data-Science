@@ -1,0 +1,58 @@
+[
+  {
+    "lam": 1e-05,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.5074
+  },
+  {
+    "lam": 3.727593720314938e-05,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.5068
+  },
+  {
+    "lam": 0.00013894954943731373,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.5124
+  },
+  {
+    "lam": 0.0005179474679231213,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.519
+  },
+  {
+    "lam": 0.0019306977288832496,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.5114
+  },
+  {
+    "lam": 0.007196856730011514,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.5098
+  },
+  {
+    "lam": 0.026826957952797246,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.4778
+  },
+  {
+    "lam": 0.1,
+    "ns": 900,
+    "batch_size": 100,
+    "cycles": 2,
+    "best_val_acc": 0.3826
+  }
+]

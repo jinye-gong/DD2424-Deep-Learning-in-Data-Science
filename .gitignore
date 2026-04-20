@@ -1,0 +1,19 @@
+# Ignore lecture materials
+lecture/
+Lecture*.pdf
+assignment1/Datasets/
+assignment2/Datasets/
+*.tar.gz
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
