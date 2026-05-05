@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "name": "cmp_f4_nf10_nh50",
+      "f": 4,
+      "nf": 10,
+      "nh": 50,
+      "numpy_train_time_sec": 4.667904615402222,
+      "numpy_test_acc": 0.4667,
+      "torch_train_time_sec": 3.1760623455047607,
+      "torch_test_acc": 0.44369998574256897,
+      "numpy_vs_torch_time_ratio": 1.4697144160312028
+    },
+    {
+      "name": "cmp_f8_nf40_nh50",
+      "f": 8,
+      "nf": 40,
+      "nh": 50,
+      "numpy_train_time_sec": 4.8659210205078125,
+      "numpy_test_acc": 0.475,
+      "torch_train_time_sec": 0.6689453125,
+      "torch_test_acc": 0.4643000066280365,
+      "numpy_vs_torch_time_ratio": 7.274019160583942
+    },
+    {
+      "name": "cmp_f4_nf40_nh300",
+      "f": 4,
+      "nf": 40,
+      "nh": 300,
+      "numpy_train_time_sec": 12.024410486221313,
+      "numpy_test_acc": 0.5128,
+      "torch_train_time_sec": 1.9997303485870361,
+      "torch_test_acc": 0.5054000020027161,
+      "numpy_vs_torch_time_ratio": 6.013015952234504
+    }
+  ],
+  "quick": false
+}

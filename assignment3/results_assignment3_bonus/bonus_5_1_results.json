@@ -1,0 +1,65 @@
+{
+  "runs": [
+    {
+      "name": "baseline_arch5",
+      "f": 4,
+      "nf": 40,
+      "nh": 300,
+      "lam": 0.0025,
+      "eps": 0.0,
+      "eta_max_decay": 1.0,
+      "final_test_acc": 0.5368,
+      "final_test_loss": 1.5760012865066528,
+      "train_time_sec": 388.6839339733124
+    },
+    {
+      "name": "impr1_wider",
+      "f": 4,
+      "nf": 64,
+      "nh": 500,
+      "lam": 0.002,
+      "eps": 0.0,
+      "eta_max_decay": 1.0,
+      "final_test_acc": 0.5424,
+      "final_test_loss": 1.5933475494384766,
+      "train_time_sec": 584.2594344615936
+    },
+    {
+      "name": "impr2_wider_ls",
+      "f": 4,
+      "nf": 64,
+      "nh": 500,
+      "lam": 0.0015,
+      "eps": 0.1,
+      "eta_max_decay": 1.0,
+      "final_test_acc": 0.5328,
+      "final_test_loss": 1.4207812547683716,
+      "train_time_sec": 394.1579773426056
+    },
+    {
+      "name": "impr3_wider_ls_decay",
+      "f": 4,
+      "nf": 64,
+      "nh": 500,
+      "lam": 0.0015,
+      "eps": 0.1,
+      "eta_max_decay": 0.9,
+      "final_test_acc": 0.5309,
+      "final_test_loss": 1.4227607250213623,
+      "train_time_sec": 696.7513606548309
+    }
+  ],
+  "best": {
+    "name": "impr1_wider",
+    "f": 4,
+    "nf": 64,
+    "nh": 500,
+    "lam": 0.002,
+    "eps": 0.0,
+    "eta_max_decay": 1.0,
+    "final_test_acc": 0.5424,
+    "final_test_loss": 1.5933475494384766,
+    "train_time_sec": 584.2594344615936
+  },
+  "quick": false
+}

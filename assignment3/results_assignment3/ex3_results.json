@@ -1,0 +1,63 @@
+{
+  "short_runs": [
+    {
+      "name": "a1_f2_nf3_nh50",
+      "f": 2,
+      "nf": 3,
+      "nh": 50,
+      "final_test_acc": 0.4409,
+      "train_time_sec": 48.03213620185852
+    },
+    {
+      "name": "a2_f4_nf10_nh50",
+      "f": 4,
+      "nf": 10,
+      "nh": 50,
+      "final_test_acc": 0.4871,
+      "train_time_sec": 43.06850242614746
+    },
+    {
+      "name": "a3_f8_nf40_nh50",
+      "f": 8,
+      "nf": 40,
+      "nh": 50,
+      "final_test_acc": 0.5192,
+      "train_time_sec": 46.60038113594055
+    },
+    {
+      "name": "a4_f16_nf160_nh50",
+      "f": 16,
+      "nf": 160,
+      "nh": 50,
+      "final_test_acc": 0.4925,
+      "train_time_sec": 63.32315707206726
+    }
+  ],
+  "long_runs": [
+    {
+      "name": "a2_long_f4_nf10_nh50",
+      "f": 4,
+      "nf": 10,
+      "nh": 50,
+      "final_test_acc": 0.4659,
+      "train_time_sec": 95.04448008537292
+    },
+    {
+      "name": "a3_long_f8_nf40_nh50",
+      "f": 8,
+      "nf": 40,
+      "nh": 50,
+      "final_test_acc": 0.4994,
+      "train_time_sec": 104.13298988342285
+    },
+    {
+      "name": "a2_wide_long_f4_nf40_nh50",
+      "f": 4,
+      "nf": 40,
+      "nh": 50,
+      "final_test_acc": 0.5197,
+      "train_time_sec": 123.44150185585022
+    }
+  ],
+  "quick": false
+}

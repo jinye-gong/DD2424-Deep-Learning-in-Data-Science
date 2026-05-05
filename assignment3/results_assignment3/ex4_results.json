@@ -1,0 +1,21 @@
+{
+  "runs": [
+    {
+      "name": "arch5_no_label_smoothing",
+      "lam": 0.0025,
+      "label_smoothing_eps": 0.0,
+      "final_test_acc": 0.533,
+      "final_test_loss": 1.5827769041061401,
+      "train_time_sec": 325.5063593387604
+    },
+    {
+      "name": "arch5_with_label_smoothing",
+      "lam": 0.0015,
+      "label_smoothing_eps": 0.1,
+      "final_test_acc": 0.5232,
+      "final_test_loss": 1.4514539241790771,
+      "train_time_sec": 235.3758327960968
+    }
+  ],
+  "quick": false
+}
