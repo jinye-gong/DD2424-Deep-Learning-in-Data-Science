@@ -7,6 +7,7 @@ Course repository for assignments and related code.
 - `assignment1/`
 - `assignment2/`
 - `assignment3/`
+- `assignment4/`
 
 ## Notes
 
