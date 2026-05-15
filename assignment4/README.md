@@ -48,7 +48,3 @@ conda run -n dd2424 python Assignment4_bonus.py --mode all --max-updates 15000
 | sequence length | 25 |
 | optimizer | Adam |
 | vocabulary K | 80 |
-
-## Report PDF
-
-Reports use plain text for math (no `$...$`) so PDF export does not drop variables or numbers. Regenerate PDFs with pandoc + a PDF engine, or open the `.md` files in your editor and export to PDF.
